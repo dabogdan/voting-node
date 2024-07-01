@@ -9,7 +9,7 @@ mod mock;
 
 #[cfg(test)]
 #[path = "tests.rs"]
-mod optinet_integration_tests;
+mod tests;
 
 #[cfg(feature = "runtime-benchmarks")]
 mod benchmarking;
